@@ -1,0 +1,12 @@
+
+The price of weapons/equipment may be different from the one used for price calculations due to patches. (There is no valid way of knowing when exactly was the game played, therefore I'll use the current equipment values).
+    E.g. the shotguns had price reductions in March 2019.
+
+
+Potential problems:
+dinheiro da equipa pode reduzir ao longo da ronda, porque players vão morrendo, e deixo de ter acesso a esses dados. 
+    Útil no FreezeTime, mas durante a ronda pode até ser contra producente
+
+Dinheiro no overtime é capaz de ser diferente: 10k por jogador (50k team) ou 16k por jogador (80k team), 
+    - os dados mostram ambos os casos, pode confundir o algoritmo por ter dados de alturas diferentes.
+    - Tento combater um pouco esta diferença com o "is_overtime" feature
