@@ -1,0 +1,15 @@
+__pycache__/
+
+.ipynb_checkpoints/
+
+dataset_initial_backup/
+dataset_initial_v3.zip
+dataset_second_v3.zip
+dataset_initial/dataset_00_pretty.json
+dataset_second/dataset_00_pretty.json
+
+db/
+
+credentials.txt
+
+hltv_api_github.py
